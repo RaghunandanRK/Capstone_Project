@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-25T00:24:54 IST" name="Default suite" finished-at="2023-08-25T00:25:00 IST" duration-ms="5505">
+    <groups>
+    </groups>
+    <test started-at="2023-08-25T00:24:54 IST" name="Default test" finished-at="2023-08-25T00:25:00 IST" duration-ms="5505">
+      <class name="capstoneproject.SportyShoes">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:capstoneproject.SportyShoes@663c9e7a]" started-at="2023-08-25T00:24:55 IST" name="setUp" finished-at="2023-08-25T00:24:55 IST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createPayLoad()[pri:0, instance:capstoneproject.SportyShoes@663c9e7a]" started-at="2023-08-25T00:24:55 IST" name="createPayLoad" finished-at="2023-08-25T00:24:57 IST" duration-ms="1846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPayLoad -->
+        <test-method signature="RetriveAllProdList()[pri:1, instance:capstoneproject.SportyShoes@663c9e7a]" started-at="2023-08-25T00:24:57 IST" name="RetriveAllProdList" finished-at="2023-08-25T00:24:59 IST" duration-ms="2251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RetriveAllProdList -->
+        <test-method signature="RetriveAllRegUsersList()[pri:2, instance:capstoneproject.SportyShoes@663c9e7a]" started-at="2023-08-25T00:24:59 IST" name="RetriveAllRegUsersList" finished-at="2023-08-25T00:24:59 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RetriveAllRegUsersList -->
+        <test-method signature="AddTheProduct()[pri:3, instance:capstoneproject.SportyShoes@663c9e7a]" started-at="2023-08-25T00:24:59 IST" name="AddTheProduct" finished-at="2023-08-25T00:25:00 IST" duration-ms="1031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddTheProduct -->
+      </class> <!-- capstoneproject.SportyShoes -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
