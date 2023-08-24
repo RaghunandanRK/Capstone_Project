@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-24T23:14:27 IST" name="Default suite" finished-at="2023-08-24T23:14:50 IST" duration-ms="22390">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:sportyshoes.teststeps.TestRunner@7d0b7e3c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-08-24T23:14:27 IST" name="Default test" finished-at="2023-08-24T23:14:50 IST" duration-ms="22390">
+      <class name="sportyshoes.teststeps.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:sportyshoes.teststeps.TestRunner@7d0b7e3c]" started-at="2023-08-24T23:14:27 IST" name="setUpClass" finished-at="2023-08-24T23:14:28 IST" duration-ms="709" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@430df350]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:sportyshoes.teststeps.TestRunner@7d0b7e3c]" started-at="2023-08-24T23:14:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T23:14:48 IST" duration-ms="20045" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User buys shoes"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Buying Sporty Shoes]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:sportyshoes.teststeps.TestRunner@7d0b7e3c]" started-at="2023-08-24T23:14:48 IST" name="tearDownClass" finished-at="2023-08-24T23:14:50 IST" duration-ms="1584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- sportyshoes.teststeps.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
